@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import * as appLoader from 'mk-app-loader'
-import utils from 'mk-utils'
+import utils from 'fk-utils'
 import * as component from 'mk-component'
 import metaEngine from 'mk-meta-engine'
 import { Provider } from 'react-redux'

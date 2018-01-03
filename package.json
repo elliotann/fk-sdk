@@ -23,7 +23,7 @@
     "fk-app-loader": "^1.0.0",
     "fk-component": "^1.0.0",
     "fk-meta-engine": "^1.0.0",
-    "fk-utils": "^1.0.0",
+    "fk-utils": "^1.0.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
