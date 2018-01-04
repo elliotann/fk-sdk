@@ -1,3 +1,3 @@
-define(['MK'], function(mk){
+define(['FK'], function(fk){
     return mk.appLoader
 })

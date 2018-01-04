@@ -9,16 +9,16 @@
     <script src='require.js'></script>
     <script>
         __require_base_url__ = ''
-        window.mkReady = function (mk) {
-            mk.requireApps(require, [
-                'https://unpkg.com/mk-app-root/dist/mk-app-root.min.js',
-                'https://unpkg.com/mk-app-login/dist/mk-app-login.min.js',
-                'https://unpkg.com/mk-app-portal/dist/mk-app-portal.min.js',
+        window.mkReady = function (fk) {
+            fk.requireApps(require, [
+                'https://unpkg.com/fk-app-root/dist/fk-app-root.min.js',
+                'https://unpkg.com/fk-app-login/dist/fk-app-login.min.js',
+                'https://unpkg.com/fk-app-portal/dist/fk-app-portal.min.js',
                 'https://unpkg.com/mk-app-editable-table/dist/mk-app-editable-table.min.js',
                 'https://unpkg.com/mk-app-person-card/dist/mk-app-person-card.min.js',
             ], (apps) => {
-                var root = apps['mk-app-root'],
-                    login = apps['mk-app-login'],
+                var root = apps['fk-app-root'],
+                    login = apps['fk-app-login'],
                     portal = apps['mk-app-portal']
 
                 root.config({ startAppName: login.name })
